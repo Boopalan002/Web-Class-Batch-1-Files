@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+  	function display(val1)
+  	{
+  		document.calc.txt1.value += val1; 
+  	}
+  	function clear1()
+  	{
+  		document.calc.txt1.value = "";
+  	}
+  	function result()
+  	{
+  		let res1 = document.calc.txt1.value;
+  		let total = eval(res1);
+  		document.calc.txt1.value = total;
+  	}
+  </script>
+</head>
+<body>
+<table class="table table-bodered table-dark table-striped table-hover">
+	<form name="calc" method="post">
+	<tr>
+		<th><input type="text" name="txt1"></th>
+		<th><input type="button" name="btn1" onclick="clear1()" value="C"></th>
+	</tr>
+	<tr>
+		<th><input type="button" name="btn2" onclick="display('1')" value="1"></th>
+		<th><input type="button" name="btn3" onclick="display('2')" value="2"></th>
+		<th><input type="button" name="btn4" onclick="display('3')" value="3"></th>
+		<th><input type="button" name="add" onclick="display('+')" value="+"></th>
+	</tr>
+	<tr>
+		<th><input type="button" name="btn5" onclick="display('4')" value="4"></th>
+		<th><input type="button" name="btn6" onclick="display('5')" value="5"></th>
+		<th><input type="button" name="btn7" onclick="display('6')" value="6"></th>
+		<th><input type="button" name="sub" onclick="display('-')" value="-"></th>
+	</tr>
+	<tr>
+		<th><input type="button" name="btn8" onclick="display('7')" value="7"></th>
+		<th><input type="button" name="btn9" onclick="display('8')" value="8"></th>
+		<th><input type="button" name="btn10" onclick="display('9')" value="9"></th>
+		<th><input type="button" name="mul" onclick="display('*')" value="*"></th>
+	</tr>
+	<tr>
+		<th><input type="button" name="btn11" onclick="display('.')" value="."></th>
+		<th><input type="button" name="btn12" onclick="display('0')" value="0"></th>
+		<th><input type="button" name="btn13" onclick="result()" value="="></th>
+		<th><input type="button" name="div" onclick="display('/')" value="/"></th>
+	</tr>
+</form>
+</table>
+</body>
+</html>

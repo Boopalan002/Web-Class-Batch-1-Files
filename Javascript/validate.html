@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiplication Table</title>
+	<script type="text/javascript">
+		function validate()
+		{
+			var a = document.getElementById("txt1").value;
+			var error1 = "It's a required Field";
+			if(a == "" || a == null)
+			{
+				document.getElementById("a1").innerHTML = error1;
+			}
+			else
+			{
+				document.getElementById("a1").innerHTML = "";
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type="text" name="" id="txt1">
+	<p id="a1" style="display:inline;color:red;font-weight: bold;"></p><br>
+	<input type="button" value="SUBMIT" onclick="validate()">
+</body>
+</html>

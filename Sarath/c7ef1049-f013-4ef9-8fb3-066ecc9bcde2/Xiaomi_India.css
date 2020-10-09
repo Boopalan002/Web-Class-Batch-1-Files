@@ -1,0 +1,177 @@
+div.bar1 ul
+{
+	list-style-type: none;
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	background-color: black;
+	width: auto;	
+}
+div.bar1 li
+{
+	display: inline-block;
+	padding: 12px 10px;
+}
+div.bar1 li a
+{
+	color: #909497;	
+	text-decoration: none;
+}
+div.bar1 li a:hover
+{
+	color:white; 
+}
+div.bgimg img
+{
+	height: auto;
+	margin-right: -20px;
+	margin-top: -90;
+}
+div.bar2 ul
+{
+	list-style-type: none;
+	margin:0px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	position: relative;
+	top: 10px;
+}
+div.bar2 li
+{
+	display: inline-block;
+	padding: 10px 25px;
+}
+div.bar2 li a
+{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+div.bar2 li a:hover
+{
+	color:#FF5733;
+	text-decoration: none;
+}
+div.ad-1 ul
+{
+	list-style-type: none;
+	margin: 50px;
+}
+div.ad-1 li
+{
+	display: inline-block;
+	padding: 8px;
+}
+div.ad-1 img:hover
+{
+	border: 2px solid #BDC3C7;
+}
+div.ad-2 p
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	color: #909497;
+	text-align: center;
+}
+div.ad-2 img:hover
+{
+	border: 2px solid #BDC3C7;
+}
+div.ad-3 p
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	color: #909497;
+	text-align: center;
+}
+div.ad-3 ul
+{
+	list-style-type: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+div.ad-3 li
+{
+	display: inline-block;	
+	padding: 10px 10px;
+}
+div.ad-3 li a
+{
+	text-decoration: none;
+	color: #909497;
+}
+div.ad-3 li a:hover
+{
+	color: #FF5733;
+	text-decoration: underline;
+	text-decoration-color: #FF5733;
+}
+div.ad-3 div.gallery
+{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 220px;
+    position: relative;
+    left: 150;
+}
+div.ad-3 div.gallery:hover 
+{
+    border: 2px solid #A6ACAF;
+}
+div.ad-3 div.gallery img 
+{
+    width: 100%;
+    height: auto;
+}
+div.ad-3 p.title
+{
+    padding: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+div.ad-3 p span	
+{
+	color:  #FF5733;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}	
+div.ad-4 p
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #909497;
+	text-align: left;
+	padding: 15px;
+}
+div.ad-4 div.gallery
+{
+    margin: 5px;
+    border: 1px solid #F1EEEE;
+    float: left;
+    width: 550px;   
+}
+div.ad-4 div.gallery:hover 
+{
+    border: 2px solid #A6ACAF;
+}
+div.ad-4 div.gallery img 
+{
+    width: 100%;
+    height: auto;
+}
+div.ad-4 p.title
+{
+    padding: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+div.ad-4 p span	
+{
+	color:  #FF5733;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+div.ad-4 p 	

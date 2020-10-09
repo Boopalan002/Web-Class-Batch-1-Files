@@ -1,0 +1,31 @@
+div.div1
+{
+	background:orange;
+	color:white;
+	height:300px;
+	width:300px;
+}
+div.div2
+{
+	background:#bcadef;
+	width:100px;
+	overflow:auto;
+}
+div.div1 p#p1
+{
+	background:red;
+	color:white;
+	border:2px solid #356fca;
+	width:150px;
+	position:relative;
+	left:200px;
+}
+div.div1 p#p2
+{
+	background:green;
+	color:white;
+	border:2px solid #34acbd;
+	width:150px;
+	position: absolute;
+	top:250px;
+}

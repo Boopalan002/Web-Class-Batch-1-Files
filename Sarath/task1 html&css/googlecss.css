@@ -1,0 +1,168 @@
+div.mm ul
+{
+	list-style-type: none;
+	float: right;
+	margin: 0px;
+}
+div.mm li
+{
+	display: inline-block;
+	padding: 6px;
+	cursor: pointer;
+}
+div.mm li a
+{
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+div.mm li a:hover
+{
+	text-decoration: underline;
+}
+/*googlelogo*/
+div.g-1 
+{
+	list-style-type: none;
+	position: absolute;
+	top: 150px;
+	left: 550px;
+}
+/*searchbox*/
+input[type=text]
+{
+	width: 45%;
+	padding: 6px 6px;
+	margin: 0px 0px;
+	border: 1px;
+}
+div.g-t ul
+{
+	list-style-type: none;
+	border: 2px solid  #D5D8DC;
+	border-radius: 32px;
+	width: 35%;
+	margin: 0px;
+	position: absolute;
+	top: 325px;     
+	left: 500px;
+}
+div.g-t li
+{
+	display: inline-block;
+}
+div.g-t li a:hover
+{
+	cursor: pointer;
+}
+/*G-language*/
+div.l-e ul
+{
+	list-style-type: none;
+	position: absolute;
+	top: 450px;     
+	left: 450px;
+}
+div.l-e li
+{
+	display: inline-block;
+}
+div.l-e li a
+{
+	font-size: small;
+	text-decoration: none;
+	padding: 3px;
+}
+div.l-e li a:hover
+{
+	text-decoration: underline;
+}
+/**/
+.button2
+{
+	background-color: #F2F2F2; 
+	border: 0px solid #ABB2B9;
+	border-radius: 2px;
+	color: black;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	font-color: #808B96;
+	margin: 12px 4px;
+	cursor: pointer;
+	position: absolute;			
+	top: 390px;
+	left: 600px;	 
+}
+
+.button3
+{
+	background-color: #F2F2F2; 
+	border: 0px solid #ABB2B9 ;
+	border-radius: 3px;
+	color: black;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	font-color: #808B96;
+	margin: 12px 4px;
+	cursor: pointer;
+	position: absolute;			
+	top: 390px;
+	left: 750px;	
+}
+div.g-2 ul
+{
+	list-style-type: none;
+	background-color: #F2F2F2;
+	width: 100%;
+	margin: 0px;
+	border-top: 1px solid;
+	border-color: #D5D8DC ;
+	position: absolute;
+	bottom: 44px;
+}
+div.g-2 li
+{
+	display: inline-block;
+	padding: 12px;
+}
+div.g-2 li a
+{
+	color: black;
+	text-decoration: none;
+}
+div.g-2 a:hover
+{
+	text-decoration: underline;
+}
+div.g-3 ul
+{
+	list-style-type: none; 
+	background-color: #F2F2F2;
+	width: 100%;
+	margin: 0px;
+	border-top: 1px solid;
+	border-color: #D5D8DC ;	
+	position: absolute;
+	bottom: 0px;
+}
+div.g-3 li
+{
+	display: inline-block;
+	padding: 12px;	
+}
+
+div.g-3 li a
+{
+	color: black;
+	text-decoration: none;
+}
+div.g-3 li a:hover
+{
+	text-decoration: underline;
+}

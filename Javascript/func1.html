@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Function 1</title>
+</head>
+<body>
+<script type="text/javascript">
+    function showMessage(from, text) 
+{
+
+  from = from + 90; // make "from" look nicer
+
+  alert( from + ': ' + text );
+}
+
+let from = 10;
+
+showMessage(from, "Hello"); // *Ann*: Hello
+
+// the value of "from" is the same, the function modified a local copy
+alert( from ); // Ann
+</script>
+</body>
+</html>

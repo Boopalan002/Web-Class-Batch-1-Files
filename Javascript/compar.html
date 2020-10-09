@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Page</title>
+	<style type="text/css">
+		/*#name1
+		{
+			color:red;
+			font-size:18px;
+		}*/
+	</style>
+</head>
+<body>
+
+<script type="text/javascript">
+
+
+
+let userName = prompt("Who's there?", '');
+
+if (userName == 'Admin') {
+
+  let pass = prompt('Password?', '');
+
+  if (pass == 'TheMaster') {
+    alert( 'Welcome!' );
+  } else if (pass == '' || pass == null) {
+    alert( 'Canceled' );
+  } else {
+    alert( 'Wrong password' );
+  }
+
+} else if (userName == '' || userName == null) {
+  alert( 'Canceled' );
+} else {
+  alert( "I don't know you" );
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Even Numbers to display</title>
+	<script type="text/javascript">
+	function displayEven()
+	{
+		var i = document.getElementById("txt1").value;
+		if(i == "")
+		{
+			alert("Please enter the number");
+		}
+		else
+		{
+			if(isNaN(i))
+			{
+				alert("Please enter only the number");
+			}
+			else
+			{
+				if(i < 10 || i > 100)
+				{
+					alert("Please enter the number between 10 to 100");
+				}
+				else
+				{
+					var evenNums = "<br>Even Numbers:<br>";
+					
+					for(j=0;j<i;j++)
+					{
+						if(j%2==0)
+						{
+							//document.write(j+"<br>");
+							//document.getElementByID("disp1").innerHTML = j;
+							//insert(j);
+							evenNums += j + "<br>";
+						}
+					}
+					document.getElementById("result").innerHTML = evenNums;
+				}
+			}
+		}
+	}
+
+	
+</script>
+</head>
+<body>
+		Enter the range to display even numbers (Not > 100):
+		<input type="text" id="txt1"><br>
+		<input type="button" name="submit" value="SUBMIT" onclick="displayEven()"><br>
+		<div id="result"></div>
+</body>
+</html>

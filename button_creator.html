@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>CSS Button</title>
+	<style type="text/css">
+		span
+		{
+			background-color:#23bcad;
+			color:white;
+			font-weight:400;
+			padding:3px;
+			border:1px solid black;
+			 display: inline-block;
+		}
+		span:hover
+		{
+			background-color: yellow;
+			color:red;
+			border:2px solid green;
+			transition: 1s;
+		}
+		ol.course li
+		{
+			list-style-type: upper-roman;
+		}
+		ul.course1 li
+		{
+			list-style-type: none;
+		}
+		ul.course1 li:before
+		{
+			
+			content:"\00AB";
+			font-family: FontAwesome;
+		}
+
+	</style>
+</head>
+<body>
+	<ol class="course">
+		<li>BCA</li>
+		<li>BCOM</li>
+	</ol>
+	<ul class="course1">
+		<li>BCA</li>
+		<li>BCOM</li>
+	</ul>
+<span>Submit</span>
+</body>
+</html>
